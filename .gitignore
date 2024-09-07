@@ -1,0 +1,68 @@
+# Node.js modules
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variable files
+*.env
+
+# Logs
+*.log
+backend/logs/
+frontend/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+backend/build/
+frontend/build/
+backend/dist/
+frontend/dist/
+
+# Coverage reports
+backend/coverage/
+frontend/coverage/
+backend/.nyc_output/
+frontend/.nyc_output/
+
+# Dependency directories
+backend/jspm_packages/
+frontend/jspm_packages/
+
+# IDE/editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# React-specific
+frontend/.next/
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
+
+# Yarn and NPM lock files
+frontend/yarn.lock
+frontend/package-lock.json
+backend/yarn.lock
+backend/package-lock.json
+
+# Public folder content (if not needed)
+frontend/public/
+
+# Caches
+frontend/.cache/
+
+# Storybook (if used)
+frontend/.storybook/
+
+# Debugging files
+*.launch
+*.pid
+*.seed
